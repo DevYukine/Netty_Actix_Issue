@@ -50,7 +50,7 @@ pub async fn image_default(
             file.result,
         )
         .customize()
-        .insert_header(actix_web::http::header::ContentType::jpeg()))
+        .insert_header(actix_web::http::header::ContentType::png()))
 }
 
 #[actix_web::main]
